@@ -37,3 +37,16 @@ def palindrome(n:int) ->bool:
     return n == reversed_number or reversed_number // 10 == n
 
 print(palindrome(111))
+
+
+"""
+The time complexity of the is_palindrome function is O(n)
+The time complexity of this function is O(n) because the function converts the integer n to a string and then compares the original string with its reverse. 
+The space complexity is also O(n) because the function creates a new string of length n to store the reversed version of the original string
+"""
+
+def palindrome(n:int) ->bool:
+
+    return str(n)[:] == str(n)[::-1]
+
+print(palindrome(1212321))
