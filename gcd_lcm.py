@@ -12,7 +12,8 @@ Steps for Euclidean Algorithm:
 """
 
 """
-gcd using euclien algorithm -> O(log(min(a,b))
+gcd using Euclidean algorithm -> O(log(min(a,b))
+space complexity -> O(1)
 """
 
 def gcd(a,b):
@@ -29,6 +30,7 @@ print(gcd(12,5))
 
 """
 optimised euclien algorithm -> O(log(min(a,b))
+space complexity -> O(1)
 """
 
 def gcd(a,b):
@@ -48,6 +50,14 @@ def gcd(a, b):
 
 # Example usage:
 print(gcd(56, 98))  # Output will be 14
+
+
+
+
+
+
+
+
 
 """
 LCM
