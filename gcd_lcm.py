@@ -39,6 +39,15 @@ def gcd(a,b):
 
 print(gcd(10,5))
 
+or
+
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# Example usage:
+print(gcd(56, 98))  # Output will be 14
 
 """
 LCM
