@@ -5,13 +5,15 @@ space complexity -> O(1)
 
 
 def check_prime(num:int):
-    for i in range((num//2)+1):
+    if num <= 1:
+        return False
+    
+    for i in range(2,(num//2)+1):
          if num % i == 0:
              return False
-
     return True
 
-print(check_prime(10))
+print(check_prime(3))
 
 
 """
