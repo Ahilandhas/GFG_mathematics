@@ -81,8 +81,8 @@ print(lcm(4,1))
 
 """
 Efficent approach
-GCD or GCF Method of Finding LCM
-This method is used only when the greatest common factor of two numbers is given. The formula used to find the LCM using the GCF or GCD is:
+GCD or HCF Method of Finding LCM
+This method is used only when the greatest common factor of two numbers is given. The formula used to find the LCM using the HCF or GCD is:
 
 L.C.M. = a×b/ gcd(a,b)
 
